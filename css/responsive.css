@@ -1,0 +1,1295 @@
+  /* Media Query for Mobile Devices */
+  @media (max-width: 480px) {
+    body {
+    }
+    .productDetails .providers .container .content_{
+      display: flex !important;
+      flex-direction: column-reverse !important;
+    }
+    .productDetails .providers .container .d-flex .col-lg-4{
+      width: 100% !important;
+    }
+    .productDetails .providers .container .d-flex .col-lg-4 .card {
+      display: none;
+    }
+    .otherProducts {
+      display: flex !important;
+      flex-direction: column !important;
+    }
+    .otherProducts .hoverCard{
+      width: 100% ;
+      margin: 10px 0;
+    }
+    .rp{
+      display: flex;
+      flex-direction: column;
+    }
+    .rate span{
+      width: fit-content;
+    }
+    .form-group span{
+      font-size: 13px;
+    }
+    .rate{
+      justify-content: start;
+    }
+    .layer2 h3{
+      font-size: 17px;
+    }
+    .information h2{
+      font-size: 22px;
+      margin-bottom: 20px;
+    }
+    .providers h1{
+        font-size: 30px;
+    }
+    .omrancomLogoLogin {
+        transform: translateX(0px);
+        -webkit-transform: translateX(0px);
+        -moz-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+        -o-transform: translateX(0px);
+        display: none !important;
+}
+.form-group textarea{
+  width: 100%;
+}
+
+.loginCard div h1{
+  font-size: 24px;
+}
+.clickHere{
+    left: 90px;
+    font-size: 25px;
+    display: none;
+}
+.loginCard {
+    margin: 0 20px !important;
+}
+.move{
+    left: 22px !important;
+    flex-direction: column;
+    direction: rtl;
+    justify-content: space-between;
+    font-size: 11px;
+}
+.move label input{
+    margin-right: 6px;
+    margin-top: 5px;
+}
+.headWarning h3{
+  font-size: 17px !important;
+}
+.headWarning p{
+  font-size: 14px !important;
+}
+.pass{
+    margin-bottom: 11px;
+}
+.login h1{
+    font-size: 19px;
+}
+.buttonsProduct{
+  width: 170px !important;
+}
+.btnCustom2{
+  padding: 11px 20px;
+  margin-top: 10px;
+  width: 140px;
+  font-size: 11px !important;
+}
+.btnCustomR {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 13px;
+    width: fit-content;
+}
+.loginForm div label{
+    font-size: 12px;
+}
+.loginForm div input{
+    width: 100%;
+}
+.loginForm div select{
+    width: 100%;
+}
+.loginForm p{
+    font-size: 11px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+
+}
+.select2-container--default .select2-selection--multiple{
+    padding: 10px 15px !important;
+    width: 100% !important;
+    position: relative;
+    /* left:5px ; */
+    border-radius: 20px !important;
+    border: 1px solid gray;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+  }
+    /* header */
+    .Topheader .container .row .col-lg-12{
+        display: flex !important;
+        justify-content: end !important;
+        }
+        .paragraphHead {
+            width: 200px !important;
+            display: none;
+        }
+      .topLinks{
+        min-width: 100% !important;
+      }
+      .Topheader{
+        height: fit-content;
+      }
+      .topLinks a{
+        padding: 0 !important;
+      }
+      .links {
+        display: none !important;
+     }
+      .parent .container .row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .icons{
+        width: 30% !important;
+      }
+   
+      nav.links {
+        width: 70% !important;
+      }
+      .logo  img{
+        width: 100px;
+      }
+        /* index */
+        .player {
+            position: relative;
+            width: 100%;
+        }
+        .p{
+            position: absolute;
+            top: -160px;
+            width: 100%;
+            background-color: aqua;
+           display: flex;
+           flex-direction: column;
+           flex-wrap: wrap;
+       }
+        .btnCustom2{
+            padding: 10px 15px;
+            font-size: 14px;
+        }
+        .btnCustom2 i{
+            font-size: 17px;
+            position: relative !important;
+            top: 3px !important;
+        }
+        .btnCustomR{
+            padding: 10px 20px;
+        }
+        footer .container .row .col-lg-12{
+            flex-direction: column;
+        }
+        footer .container .row .col-lg-12 div{
+            margin: 10px 0;
+        }
+        .leftSide{
+            width: 35%;
+            height: 140px;
+            padding: 10px 15px;
+            direction: rtl;
+            display: none;
+        }
+        .leftSide h3{
+            font-size: 17px;
+        }
+          .leftSide form {
+            width: 90% ;
+            position: relative;
+          }
+          .leftSide form button{
+            top: 10px;
+            left: 10px;
+          }
+          .leftSide form input{
+            width: 100% ;
+          }
+          .rightSide h1{
+            font-size: 18px !important;
+            margin-bottom: 20px !important;
+          }
+          .cards{
+            justify-content: center !important;
+        }
+        .cards .hoverimg{
+          width: 100%;
+          margin: 10px 0 10px 17px;
+        }
+        .video  video{
+            width: 100%;
+        }
+        .burger{
+            display: block;
+            margin-right: 30px;
+        }
+        main{
+            margin-top: 25px !important;
+        }
+        .panner2{
+            height: 275px;
+          }
+          article.card{
+            margin: 10px;
+        }
+          article.card img{
+            object-fit: cover;
+        }
+          article.card h4{
+            font-size: 15px !important;
+            text-align: center;
+          }
+          .parent__{
+            display: flex;
+            flex-direction: column-reverse;
+          }
+          .left__ {
+            margin-top: 20px ;
+          }
+          .left__ .cards_{
+            width: 100% !important;
+            display: flex;
+            align-items: center;
+            flex-direction: column !important;
+          }
+          .right__bigCard{
+            width: 100% !important;
+          }
+          .bigCard{
+            width: 100% !important;
+          }
+          .infoOmrancom{
+            flex-direction: column;
+          }
+          .cardCustom:hover .icon{
+            width: 42%;
+          }
+          .titles{
+            margin-left: 25px;
+          }
+          .titles p{
+            font-size: 11px !important;
+          }
+          .form-group .select2 {
+            width: 100% !important;
+          }
+          .links2{
+            display: none !important;
+          }
+          .process{
+            width: 60% !important;
+          }
+          .burger{
+            display: block;
+            margin-left: 20px;
+            font-size: 23px;
+          }
+          .hovercard2{
+            top: 40px !important;
+            right: 0;
+          }
+          .hovercard2_{
+            top: 40px !important;
+          }
+          .hovers {
+            margin: 0 !important;
+          }
+          .hovers div i{
+            font-size: 18px;
+          }
+          .name{
+            font-size: 13px !important;
+            width: 56.5px !important;
+          }
+          .logo img{
+            width: 90px;
+          }
+          .profile  img{
+            width: 30px;
+            height: 30px;
+          }
+          .parent {
+            padding: 5px 0 !important;
+          }
+          .cardMy .layer h4{
+            font-size: 16px;
+          }
+          .cardsMy {
+            flex-direction: column;
+          }
+          .cardsMy .cardMy{
+            width: 100% !important;
+            margin: 10px 0;
+          }
+          .profileCard{
+            height: fit-content;
+          }
+          .data{
+            padding: 0;
+          }
+          .data div{
+            display: flex !important;
+            flex-direction: column;
+            justify-content: center !important;
+            align-items: start !important;
+            padding: 5px 0;
+          }
+          .data div p{
+            font-size: 16px !important;
+            direction: rtl;
+            text-align: right;
+          }
+          .aboutData {
+            position: relative;
+            bottom: 35px;
+          }
+          .Profilelogo img{
+            width: 150px;
+            height: 150px;
+          }
+          .securityCards {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+          .pc{
+            height: fit-content !important;
+          }
+          .securityCards .secCard{
+            margin: 15px 0;
+            width: 80% ;
+            height: 250px;
+          }
+          .securityCards .secCard .layerSec h4{
+            font-size: 14px !important;
+            text-align: center;
+          }
+          .headWarning h3{
+            font-size: 20px;
+          }
+          .headWarning p{
+            font-size: 15px;
+            text-align: center;
+          }
+
+          .addblog form{
+            width: 45% !important;
+            position: relative !important;
+            top: 2px !important;
+          }
+
+}
+@media (min-width: 481px) and (max-width: 605px){
+    body {
+     }
+     .hovercard2__ {
+      top: 45px !important;
+    }
+     .productDetails .providers .container .content_{
+      display: flex !important;
+      flex-direction: column-reverse !important;
+    }
+    .productDetails .providers .container .d-flex .col-lg-4{
+      width: 100% !important;
+    }
+    .productDetails .providers .container .d-flex .col-lg-4 .card {
+      display: none;
+    }
+    .otherProducts {
+      display: flex !important;
+      flex-direction: row !important;
+     position: relative;
+     left: 10px;
+    }
+    .rp{
+      display: flex;
+      flex-direction: column;
+    }
+    .rate span{
+      width: fit-content;
+    }
+    .cardsMy {
+      flex-direction: column;
+    }
+    .cardsMy .cardMy{
+      width: 100% !important;
+      margin: 10px 0;
+    }
+    .profileCard{
+      height: fit-content;
+    }
+    .rate{
+      justify-content: start;
+    }
+     .addblog form{
+      width: 45% !important;
+    }
+     .loginCard {
+      margin: 0 20px !important;
+    }
+     .omrancomLogoLogin {
+      display: none !important;
+         transform: translateX(0px);
+         -webkit-transform: translateX(0px);
+         -moz-transform: translateX(0px);
+         -ms-transform: translateX(0px);
+         -o-transform: translateX(0px);
+ }
+ .loginCard div:nth-child(2) h1{
+     font-size: 24px;
+ }
+ .omrancomLogoLogin  img{
+     width: 100%;
+ 
+ }
+ .clickHere{
+     left: 90px;
+     font-size: 25px;
+     display: none;
+ }
+ .move{
+     left: 12px !important;
+     flex-direction: column;
+     direction: rtl;
+     justify-content: space-between;
+     font-size: 11px;
+ }
+ .move label input{
+     margin-right: 6px;
+     margin-top: 5px;
+ }
+ .login h1{
+     font-size: 20px !important;
+ }
+ .btnCustomR {
+     padding: 7px 0px;
+     font-size: 14px;
+     width: fit-content !important;
+     text-align: center;
+ }
+ .loginForm p{
+     font-size: 13px;
+ }
+ .select2-container--default .select2-selection--multiple{
+     padding: 10px 15px !important;
+     width: 100% !important;
+     position: relative;
+     /* left:5px ; */
+     border-radius: 20px !important;
+     border: 1px solid gray;
+     -webkit-border-radius: 20px !important;
+     -moz-border-radius: 20px !important;
+     -ms-border-radius: 20px !important;
+     -o-border-radius: 20px !important;
+   }
+   .loginForm div input{
+     width: 100%;
+ }
+ .loginForm div select{
+     width: 100%;
+ }
+   /* header */
+   .Topheader{
+     display: flex;
+     justify-content: space-between;
+     }
+     .paragraphHead {
+         text-align: left !important;
+     }
+     .paragraphHead p{
+         font-size: 13px !important;
+     }
+   .topLinks{
+     min-width: 50% !important;
+   }
+   .links a{
+     font-size: 13px !important;
+ }
+   .parent .container .row{
+     display: flex;
+   }
+   .icons{
+     width: 30% !important;
+   }
+
+   nav.links {
+     width: 70% !important;
+   }
+     /* index */
+     .player {
+         position: relative;
+         width: 100%;
+     }
+     .p{
+         position: absolute;
+         top: -120px;
+         width: 100%;
+         background-color: aqua;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .btnCustom2{
+      padding: 11px 20px;
+      margin-top: 10px;
+      width: 190px;
+  }
+     .btnCustomR{
+         padding: 10px 20px;
+     }
+     footer .container .row .col-lg-12{
+         flex-direction: column;
+     }
+     footer .container .row .col-lg-12 div{
+         margin: 10px 0;
+     }
+     .leftSide{
+         width: 35%;
+         height: 140px;
+         padding: 10px 15px;
+         direction: rtl;
+         display: none;
+     }
+     .leftSide h3{
+         font-size: 17px;
+     }
+       .leftSide form {
+         width: 90% ;
+         position: relative;
+       }
+       .leftSide form button{
+         top: 10px;
+         left: 10px;
+       }
+       .leftSide form input{
+         width: 100% ;
+       }
+       .rightSide h1{
+         font-size: 20px !important;
+         margin-bottom: 20px !important;
+       }
+       .cards{
+         justify-content: center !important;
+     }
+     .video  video{
+         width: 100%;
+     }
+     .panner2{
+        height: 315px;
+      }
+      article.card{
+        margin: 10px;
+    }
+      article.card h4{
+        font-size: 15px !important;
+        text-align: center;
+      }
+      .parent__{
+        display: flex;
+        flex-direction: column-reverse;
+      }
+      .left__ {
+        margin-top: 20px ;
+      }
+      .left__ .cards_{
+        width: 100% !important;
+        display: flex;
+        align-items: center;
+        flex-direction: column !important;
+      }
+      .right__bigCard{
+        width: 100% !important;
+      }
+      .bigCard{
+        width: 100% !important;
+      }
+      .infoOmrancom{
+        flex-direction: column;
+      }
+      .form-group textarea{
+        width: 100%;
+      }
+      .links2{
+        display: none !important;
+      }
+      .process{
+        width: 40%;
+      }
+      .burger2{
+        display: block;
+        margin-left: 20px;
+        font-size: 23px;
+      }
+      .hovercard2_{
+        top: 48px !important;
+      }
+      .hovercard2{
+        right: -05px;
+      }
+      .hovers div i{
+        font-size: 19px;
+      }
+      .name{
+        font-size: 13px !important;
+        width: 58px !important;
+      }
+      .logo img{
+        width: 120px;
+      }
+      main{
+        margin: 31px 0 !important;
+      }
+      .cardMy .layer h4{
+        font-size: 16px;
+      }
+      .data{
+        padding: 0;
+      }
+      .data div{
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: start !important;
+        padding: 5px 0;
+      }
+      .data div p{
+        font-size: 16px !important;
+        direction: rtl;
+        text-align: right;
+      }
+      .aboutData {
+        position: relative;
+        bottom: 35px;
+      }
+      .securityCards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .pc{
+        height: fit-content !important;
+      }
+      .securityCards .secCard{
+        margin: 15px 0;
+        width: 80% ;
+        height: 250px;
+      }
+      .securityCards .secCard .layerSec h4{
+        font-size: 18px !important;
+        text-align: center;
+      }
+      .pc{
+        margin: 0 50px;
+      }
+}
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 605px) and (max-width: 767px) {
+    body {
+    }
+    .hovercard2__ {
+      top: 45px !important;
+    }
+    .productDetails .providers .container .content_{
+      display: flex !important;
+      flex-direction: column-reverse !important;
+    }
+    .productDetails .providers .container .d-flex .col-lg-4{
+      width: 100% !important;
+    }
+    .productDetails .providers .container .d-flex .col-lg-4 .card {
+      display: none;
+    }
+    .otherProducts {
+      display: flex !important;
+      flex-direction: row !important;
+     position: relative;
+     left: 10px;
+    }
+    .pc{
+      margin: 0 50px;
+    }
+    .addblog form{
+      width: 45% !important;
+    }
+    .omrancomLogoLogin {
+        transform: translateX(0px);
+        -webkit-transform: translateX(0px);
+        -moz-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+        -o-transform: translateX(0px);
+}
+.loginCard div:nth-child(2) h1{
+    font-size: 24px;
+}
+.omrancomLogoLogin  img{
+    width: 100%;
+
+}
+.clickHere{
+    left: 90px;
+    font-size: 25px;
+    display: none;
+}
+.move{
+    left: 12px !important;
+    flex-direction: column;
+    direction: rtl;
+    justify-content: space-between;
+    font-size: 11px;
+}
+.move label input{
+    margin-right: 6px;
+    margin-top: 5px;
+}
+.login h1{
+    font-size: 20px !important;
+}
+.btnCustomR {
+    padding: 7px 0px;
+    font-size: 14px;
+    width: fit-content;
+    text-align: center;
+}
+.loginForm p{
+    font-size: 13px;
+}
+.select2-container--default .select2-selection--multiple{
+    padding: 10px 15px !important;
+    width: 100% !important;
+    position: relative;
+    /* left:5px ; */
+    border-radius: 20px !important;
+    border: 1px solid gray;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+  }
+  .loginForm div input{
+    width: 100%;
+}
+.loginForm div select{
+    width: 100%;
+}
+  /* header */
+  .Topheader{
+    display: flex;
+    justify-content: space-between;
+    }
+    .paragraphHead {
+        text-align: left !important;
+    }
+    .paragraphHead p{
+        font-size: 17px;
+    }
+  .topLinks{
+    min-width: 50% !important;
+  }
+  .links a{
+    font-size: 13px !important;
+}
+  .parent .container .row{
+    display: flex;
+  }
+  .icons{
+    width: 30% !important;
+  }
+  nav.links {
+    width: 70% !important;
+  }
+    /* index */
+    .player {
+        position: relative;
+        width: 100%;
+    }
+    .p{
+        position: absolute;
+        top: -110px;
+        width: 100%;
+        background-color: aqua;
+
+    }
+    .btnCustom2{
+        padding: 11px 20px;
+        margin-top: 10px;
+        width: 190px;
+    }
+    .btnCustomR{
+        padding: 10px 20px;
+    }
+    footer .container .row .col-lg-12{
+        flex-direction: column;
+    }
+    footer .container .row .col-lg-12 div{
+        margin: 10px 0;
+    }
+    .leftSide{
+        width: 35%;
+        height: 140px;
+        padding: 10px 15px;
+        direction: rtl;
+    }
+    .leftSide h3{
+        font-size: 17px;
+    }
+      .leftSide form {
+        width: 90% ;
+        position: relative;
+      }
+      .leftSide form button{
+        top: 10px;
+        left: 10px;
+      }
+      .leftSide form input{
+        width: 100% ;
+      }
+      .rightSide h1{
+        font-size: 20px !important;
+      }
+      .cards{
+        justify-content: center !important;
+    }
+    .video  video{
+        width: 100%;
+    }
+    .panner2{
+        height: 345px;
+      }
+      article.card{
+        margin: 10px;
+    }
+      article.card h4{
+        font-size: 15px !important;
+        text-align: center;
+      }
+      .parent__{
+        display: flex;
+        flex-direction: column-reverse;
+      }
+      .left__ {
+        margin-top: 20px ;
+      }
+      .left__ .cards_{
+        width: 100% !important;
+        display: flex;
+        align-items: center;
+        flex-direction: column !important;
+      }
+      .right__bigCard{
+        width: 100% !important;
+      }
+      .bigCard{
+        width: 100% !important;
+      }
+      .infoOmrancom{
+        flex-direction: column;
+      }
+      .form-group textarea{
+        width: 100%;
+      }
+      .links2{
+        display: none !important;
+      }
+      .process{
+        width: 40%;
+      }
+      .burger2{
+        display: block;
+        margin-left: 20px;
+        font-size: 23px;
+      }
+      .hovercard2_{
+        top: 48px !important;
+      }
+      .hovers div i{
+        font-size: 19px;
+      }
+      .name{
+        font-size: 13px !important;
+        width: 58px !important;
+      }
+      .logo img{
+        width: 120px;
+      }
+      main{
+        margin: 41px 0 !important;
+      }
+      .securityCards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .pc{
+        height: fit-content !important;
+      }
+      .securityCards .secCard{
+        margin: 15px 0;
+      }
+      .securityCards .secCard .layerSec h4{
+        font-size: 18px !important;
+        text-align: center;
+      }
+}
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 994px){
+    body {
+    }
+    .pc{
+      margin: 0 50px;
+    }
+    .hovercard2__ {
+      top: 50px !important;
+    }
+    .omrancomLogoLogin {
+        transform: translateX(360px);
+        -webkit-transform: translateX(360px);
+        -moz-transform: translateX(360px);
+        -ms-transform: translateX(360px);
+        -o-transform: translateX(360px);
+}
+.loginCard div:nth-child(2) h1{
+    font-size: 24px;
+}
+.omrancomLogoLogin  img{
+    width: 100%;
+}
+.clickHere{
+    left: 90px;
+    font-size: 25px;
+}
+.cards{
+    justify-content: center !important;
+}
+.cards .card{
+  width: 39% !important;
+}
+.cards .card_{
+    width: 45% !important;
+    margin: 15px ;
+}
+.cards .hoverimg{
+    width: 45% !important;
+    margin: 0 5px;
+}
+.move{
+    left: 27px !important;
+}
+.login h1{
+    font-size: 28px;
+}
+.btnCustomR {
+    padding: 7px 27px;
+    font-size: 14px;
+}
+.btnCustom2 {
+  width: 180px;
+}
+.loginForm p{
+    font-size: 13px;
+}
+.select2-container--default .select2-selection--multiple{
+    padding: 10px 15px !important;
+    width: 100% !important;
+    position: relative;
+    /* left:5px ; */
+    border-radius: 20px !important;
+    border: 1px solid gray;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+  }
+  /* header */
+  .Topheader{
+    display: flex;
+    justify-content: space-between;
+    }
+    .paragraphHead {
+        text-align: left !important;
+    }
+  .topLinks{
+    min-width: 50% !important;
+  }
+  .parent .container .row{
+    display: flex;
+  }
+  .icons{
+    width: 30% !important;
+  }
+
+  nav.links {
+    width: 70% !important;
+  }
+    /* index */
+    .player {
+        position: relative;
+        width: 100%;
+    }
+    .p{
+        position: absolute;
+        top: -60px;
+        width: 100%;
+        background-color: aqua;
+
+    }
+    .leftSide{
+        width: 35%;
+      }
+    .leftSide h3{
+        font-size: 20px;
+    }
+      .leftSide form {
+        width: 100% ;
+        position: relative;
+      }
+      .leftSide form button{
+        top: 10px;
+        left: 10px;
+      }
+      .leftSide form input{
+        width: 100% ;
+      }
+      .rightSide h1{
+        font-size: 25px !important;
+      }
+      .panner2{
+        height: 470px;
+      }
+      article.card{
+        margin: 10px;
+    }
+      article.card h4{
+        font-size: 15px !important;
+        text-align: center;
+      }
+      .parent__{
+        display: flex;
+        flex-direction: column-reverse;
+      }
+      .left__ {
+        margin-top: 20px ;
+      }
+      .left__ .cards_{
+        width: 100% !important;
+        display: flex;
+        flex-direction: row !important;
+      }
+      .right__bigCard{
+        width: 100% !important;
+      }
+      .bigCard{
+        width: 100% !important;
+      }
+      .video video{
+        width: 100%;
+      }
+      .titles h5{
+        font-size: 18px !important;
+      }
+      .titles p{
+        font-size: 12px !important;
+      }
+      .cards .width_{
+        width: 45% !important;
+      }
+      .links2{
+        display: none !important;
+      }
+      .process{
+        width: 40%;
+      }
+      .burger2{
+        display: block;
+        margin-left: 20px;
+        font-size: 23px;
+      }
+      .hovercard2_{
+        top: 60px !important;
+      }
+      .securityCards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .pc{
+        height: fit-content !important;
+      }
+      .securityCards .secCard{
+        margin: 15px 0;
+      }
+      .securityCards .secCard .layerSec h4{
+        font-size: 18px !important;
+        text-align: center;
+      }
+      .addblog form{
+        width: 40% !important;
+      }
+      .productDetails .providers .container .content_{
+        display: flex !important;
+        flex-direction: column-reverse !important;
+      }
+      .productDetails .providers .container .d-flex .col-lg-4{
+        width: 100% !important;
+      }
+      .productDetails .providers .container .d-flex .col-lg-4 .card {
+        display: none;
+      }
+      .otherProducts {
+        display: flex !important;
+        flex-direction: row !important;
+      }
+}
+  
+/* Media Query for Laptops and Desktops */
+@media (min-width: 994px) and (max-width: 1201px){
+    body {
+    }
+    .pc{
+      margin: 0 50px;
+    }
+    .otherProducts {
+      display: flex !important;
+      flex-direction: column !important;
+    }
+    .otherProducts .hoverCard {
+      width: 100%;
+      margin: 10px 0;
+    }
+    .omrancomLogoLogin {
+        transform: translateX(480px);
+        -webkit-transform: translateX(480px);
+        -moz-transform: translateX(480px);
+        -ms-transform: translateX(480px);
+        -o-transform: translateX(480px);
+}
+.securityCards {
+  display: flex;
+  /* flex-direction: column; */
+}
+.securityCards .secCard .layerSec h4{
+  font-size: 18px !important;
+  text-align: center;
+}
+.clickHere{
+    left: 90px;
+}
+.move{
+    left: 37px !important;
+}
+.select2-container--default .select2-selection--multiple{
+    padding: 10px 15px !important;
+    width: 73% !important;
+    position: relative;
+    left:130px ;
+    border-radius: 20px !important;
+    border: 1px solid gray;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+  }
+  /* index */
+  .leftSide{
+    width: 35%;
+  }
+  .leftSide form {
+    width: 100% ;
+  }
+  .leftSide form input{
+    width: 100% ;
+  }
+  .rightSide h1{
+    font-size: 32px !important;
+  }
+  .panner2{
+    height: 420px;
+  }
+  .cards {
+    justify-content: space-around !important;
+  }
+  .form-group .select2 {
+    position: relative;
+    width: 100% !important;
+  }
+  .form-group .select2-selection {
+    position: absolute;
+    left: 40px;
+    right: 0;
+    width: 90% !important;
+  }
+  .links2{
+    display: none !important;
+  }
+  .name{
+    width: 70px !important;
+  }
+  .burger2{
+    display: block;
+    margin-left: 20px;
+    font-size: 23px;
+  }
+  .hovercard2_{
+    top: 52px !important;
+  }
+  .hovercard2__ {
+    top: 50px !important;
+  }
+  .item a h6{
+    width: 100% !important;
+    direction: rtl;
+  }
+  /* .parent__{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .left__{
+    width: 150% !important;
+    flex-direction: row !important;
+    background-color: blue;
+  }
+  .right__bigCard{
+    width: 100% !important;
+  }
+  .bigCard{
+    width: 100% !important;
+  } */
+}
+  
+/* Media Query for Large screens */
+@media (min-width: 1200px) {
+    body {
+    }
+    .hovercard2__ {
+      top: 50px !important;
+    }
+    .form-group .select2 {
+      position: relative;
+      width: 100% !important;
+    }
+    .form-group .select2-selection {
+      position: absolute;
+      left: 55px;
+      right: 0;
+      width: 90% !important;
+    }
+    .pc{
+      margin: 0 50px;
+    }
+}
